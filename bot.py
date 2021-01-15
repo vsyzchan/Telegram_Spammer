@@ -5,11 +5,11 @@ from telethon import TelegramClient, events
 api_id = api_id
 api_hash = 'api_hash'
 
-phone = '+62nomor hp'
-session_file = 'nama sesi'
-password = 'password, kalo gak ada kosongin aja'
+phone = 'your phone number'
+session_file = 'session name (just fill it randomly)'
+password = 'your telegram password'
 
-message = "< Haha-hihi room chat > \n\nJoin sini terutama yang nolep, menerima semua golongan ⁄(⁄ ⁄•⁄-⁄•⁄ ⁄)⁄  \n\n@hahahihigroupchat ←(>▽<)ﾉ\n@hahahihigroupchat ←(>▽<)ﾉ\n@hahahihigroupchat ←(>▽<)ﾉ\n@hahahihigroupchat ←(>▽<)ﾉ\n@hahahihigroupchat ←(>▽<)ﾉ"
+message = "YOUR PROMOTE TEXT"
 
 if __name__ == '__main__': 
 
@@ -26,7 +26,7 @@ if __name__ == '__main__':
           await event.respond(message)
 
 
-    print(time.asctime(), '-', 'Auto-replying...')
+    print(time.asctime(), '-', 'Spamming')
     client.start()
     client.run_until_disconnected()
     print(time.asctime(), '-', 'Stopped!')
