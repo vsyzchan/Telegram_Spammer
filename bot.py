@@ -22,7 +22,7 @@ if __name__ == '__main__':
         from_ = await event.client.get_entity(event.from_id)
         if not from_.bot:
           print(time.asctime(), '-', event.message)
-          time.sleep(0.5)
+          time.sleep(1)
           await event.respond(message)
 
 
