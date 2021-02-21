@@ -5,9 +5,9 @@ from telethon import TelegramClient, events
 api_id = api_id
 api_hash = 'api_hash'
 
-phone = 'your phone number'
-session_file = 'session name (just fill it randomly)'
-password = 'your telegram password'
+phone =
+session_file =
+password =
 
 message = "YOUR PROMOTE TEXT"
 
